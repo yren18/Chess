@@ -1,0 +1,78 @@
+\hypertarget{classmain_1_1_pawn}{}\section{main.\+Pawn Class Reference}
+\label{classmain_1_1_pawn}\index{main.Pawn@{main.Pawn}}
+Inheritance diagram for main.\+Pawn\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmain_1_1_pawn}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1_pawn_a8da9bc260d94a80289bd2b6dc8de657e}{Pawn}} (boolean player, int row, int col, \mbox{\hyperlink{classmain_1_1_board}{Board}} board, boolean first)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_pawn_ab9f754416283c01c007d60d03fce359a}{is\+First\+Move}} ()
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_pawn_a25b0e4665511cc671516a94744bf0798}{can\+Move}} (int i, int j)
+\item 
+String \mbox{\hyperlink{classmain_1_1_pawn_a9b2b0585c4109472bff44ee71709ba2d}{get\+Piece\+Name}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1_pawn_a8da9bc260d94a80289bd2b6dc8de657e}\label{classmain_1_1_pawn_a8da9bc260d94a80289bd2b6dc8de657e}} 
+\index{main.Pawn@{main.Pawn}!Pawn@{Pawn}}
+\index{Pawn@{Pawn}!main.Pawn@{main.Pawn}}
+\subsubsection{\texorpdfstring{Pawn()}{Pawn()}}
+{\footnotesize\ttfamily main.\+Pawn.\+Pawn (\begin{DoxyParamCaption}\item[{boolean}]{player,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{\mbox{\hyperlink{classmain_1_1_board}{Board}}}]{board,  }\item[{boolean}]{first }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create new Pwan 
+\begin{DoxyParams}{Parameters}
+{\em player} & Owner of the piece \\
+\hline
+{\em row} & x position of the piece \\
+\hline
+{\em col} & x position of the piece \\
+\hline
+{\em board} & \mbox{\hyperlink{classmain_1_1_board}{Board}} containing this piece \\
+\hline
+{\em first} & True if the piece has not moved \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1_pawn_a25b0e4665511cc671516a94744bf0798}\label{classmain_1_1_pawn_a25b0e4665511cc671516a94744bf0798}} 
+\index{main.Pawn@{main.Pawn}!canMove@{canMove}}
+\index{canMove@{canMove}!main.Pawn@{main.Pawn}}
+\subsubsection{\texorpdfstring{canMove()}{canMove()}}
+{\footnotesize\ttfamily boolean main.\+Pawn.\+can\+Move (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+check can move to (i,j) 
+
+Reimplemented from \mbox{\hyperlink{classmain_1_1_piece_a9f8dae1041fa90c31e2e54cd8a592bec}{main.\+Piece}}.
+
+\mbox{\Hypertarget{classmain_1_1_pawn_a9b2b0585c4109472bff44ee71709ba2d}\label{classmain_1_1_pawn_a9b2b0585c4109472bff44ee71709ba2d}} 
+\index{main.Pawn@{main.Pawn}!getPieceName@{getPieceName}}
+\index{getPieceName@{getPieceName}!main.Pawn@{main.Pawn}}
+\subsubsection{\texorpdfstring{getPieceName()}{getPieceName()}}
+{\footnotesize\ttfamily String main.\+Pawn.\+get\+Piece\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get \mbox{\hyperlink{classmain_1_1_piece}{Piece}} name 
+
+Reimplemented from \mbox{\hyperlink{classmain_1_1_piece_a7bfe35e868d389f1e0bba2c5499fe6b0}{main.\+Piece}}.
+
+\mbox{\Hypertarget{classmain_1_1_pawn_ab9f754416283c01c007d60d03fce359a}\label{classmain_1_1_pawn_ab9f754416283c01c007d60d03fce359a}} 
+\index{main.Pawn@{main.Pawn}!isFirstMove@{isFirstMove}}
+\index{isFirstMove@{isFirstMove}!main.Pawn@{main.Pawn}}
+\subsubsection{\texorpdfstring{isFirstMove()}{isFirstMove()}}
+{\footnotesize\ttfamily boolean main.\+Pawn.\+is\+First\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if the piece has not moved \begin{DoxyReturn}{Returns}
+Boolean if the piece has not moved 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+chess/src/main/\mbox{\hyperlink{_pawn_8java}{Pawn.\+java}}\end{DoxyCompactItemize}

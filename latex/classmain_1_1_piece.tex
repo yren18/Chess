@@ -1,0 +1,351 @@
+\hypertarget{classmain_1_1_piece}{}\section{main.\+Piece Class Reference}
+\label{classmain_1_1_piece}\index{main.Piece@{main.Piece}}
+Inheritance diagram for main.\+Piece\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=9.000000cm]{classmain_1_1_piece}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1_piece_a59bc157190f8a8e0b591170e2ba170d8}{Piece}} (boolean player, int row, int col, \mbox{\hyperlink{classmain_1_1_board}{Board}} board)
+\item 
+abstract boolean \mbox{\hyperlink{classmain_1_1_piece_a9f8dae1041fa90c31e2e54cd8a592bec}{can\+Move}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_a952556ebac11683ccca77a7a07390472}{valid\+Move}} (int i, int j)
+\item 
+\mbox{\hyperlink{classmain_1_1_board}{Board}} \mbox{\hyperlink{classmain_1_1_piece_a4379392982c94b448a00c4a83f3d5552}{get\+Board}} ()
+\item 
+int \mbox{\hyperlink{classmain_1_1_piece_ac64b94e395aeccaa7775f64347008942}{get\+Row}} ()
+\item 
+int \mbox{\hyperlink{classmain_1_1_piece_a8bd82e7f1f966d64d6ae71ea6a1b2866}{get\+Col}} ()
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_afce632cbf2ecedfaffd75b3429cd9171}{get\+Player}} ()
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_ac37459803d206ec69e963d8ec80b18ab}{in\+Board}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_ad00cbb2f2d2fc267a39bfb839b8b56ac}{same\+Pos}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_a570604f7be083379527fc650508af42c}{basic\+Check}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_adf43c89b35f525bc50f56d67df57c430}{valid\+Pos}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_a59913ef35b6873e7b7e49f54cbd3f825}{same\+Row}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_a5dff87dbb6683e90c752b29c0b1dd5b4}{same\+Col}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_adb879d4da6b0570163f9581a038ad3a0}{straight}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_a2fafcb060e3617e7f3da120aea09a36b}{diagonal}} (int i, int j)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_ae0c25ed29cd5eb75822bbba3068a283c}{no\+Leap}} (int i, int j)
+\item 
+\mbox{\hyperlink{classmain_1_1_piece}{Piece}} \mbox{\hyperlink{classmain_1_1_piece_a18021b3a461d8fcc4817da51402d0867}{copy\+Piece}} (int i, int j, \mbox{\hyperlink{classmain_1_1_board}{Board}} new\+Board, boolean is\+Pawn, boolean is\+First)
+\item 
+boolean \mbox{\hyperlink{classmain_1_1_piece_a6fd7622cdb9f1e91c00b416af8cfd043}{is\+Mate}} (int i, int j)
+\item 
+abstract String \mbox{\hyperlink{classmain_1_1_piece_a7bfe35e868d389f1e0bba2c5499fe6b0}{get\+Piece\+Name}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1_piece_a59bc157190f8a8e0b591170e2ba170d8}\label{classmain_1_1_piece_a59bc157190f8a8e0b591170e2ba170d8}} 
+\index{main.Piece@{main.Piece}!Piece@{Piece}}
+\index{Piece@{Piece}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{Piece()}{Piece()}}
+{\footnotesize\ttfamily main.\+Piece.\+Piece (\begin{DoxyParamCaption}\item[{boolean}]{player,  }\item[{int}]{row,  }\item[{int}]{col,  }\item[{\mbox{\hyperlink{classmain_1_1_board}{Board}}}]{board }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create create a new piece 
+\begin{DoxyParams}{Parameters}
+{\em player} & owner of the piece \\
+\hline
+{\em row} & x position of the piece \\
+\hline
+{\em col} & y position of the piece \\
+\hline
+{\em board} & board containing the piece \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1_piece_a570604f7be083379527fc650508af42c}\label{classmain_1_1_piece_a570604f7be083379527fc650508af42c}} 
+\index{main.Piece@{main.Piece}!basicCheck@{basicCheck}}
+\index{basicCheck@{basicCheck}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{basicCheck()}{basicCheck()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+basic\+Check (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position is the same as current position and if target position is the same as current position
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is in the board and target position is not the same as current position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a9f8dae1041fa90c31e2e54cd8a592bec}\label{classmain_1_1_piece_a9f8dae1041fa90c31e2e54cd8a592bec}} 
+\index{main.Piece@{main.Piece}!canMove@{canMove}}
+\index{canMove@{canMove}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{canMove()}{canMove()}}
+{\footnotesize\ttfamily abstract boolean main.\+Piece.\+can\+Move (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Abstract function Check if this piece can move to target position without considering being checked 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of the piece \\
+\hline
+{\em j} & y position of the piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if this piece can move to target position without considering being checked 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classmain_1_1_pawn_a25b0e4665511cc671516a94744bf0798}{main.\+Pawn}}, \mbox{\hyperlink{classmain_1_1_cannon_a374dcf636c809bb25d652f16ac469ad6}{main.\+Cannon}}, \mbox{\hyperlink{classmain_1_1_archer_a568e88acab994677c762568e38a43679}{main.\+Archer}}, \mbox{\hyperlink{classmain_1_1_bishop_af5f01fb2a3efd5ded53c144baaaf990e}{main.\+Bishop}}, \mbox{\hyperlink{classmain_1_1_king_ad621a9ca71643c5542f024012c1771de}{main.\+King}}, \mbox{\hyperlink{classmain_1_1_knight_ae58baadc349750959356f3c235766fcf}{main.\+Knight}}, \mbox{\hyperlink{classmain_1_1_queen_af97cabf8dd28d4435faa4a26bc8625d7}{main.\+Queen}}, and \mbox{\hyperlink{classmain_1_1_rook_a53e4097e83f1ee1d0a093b1dc7efcffa}{main.\+Rook}}.
+
+\mbox{\Hypertarget{classmain_1_1_piece_a18021b3a461d8fcc4817da51402d0867}\label{classmain_1_1_piece_a18021b3a461d8fcc4817da51402d0867}} 
+\index{main.Piece@{main.Piece}!copyPiece@{copyPiece}}
+\index{copyPiece@{copyPiece}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{copyPiece()}{copyPiece()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1_piece}{Piece}} main.\+Piece.\+copy\+Piece (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j,  }\item[{\mbox{\hyperlink{classmain_1_1_board}{Board}}}]{new\+Board,  }\item[{boolean}]{is\+Pawn,  }\item[{boolean}]{is\+First }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a new piece with given parameters
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of new piece \\
+\hline
+{\em j} & y position of new piece \\
+\hline
+{\em new\+Board} & board containing the piece \\
+\hline
+{\em is\+Pawn} & true if this piece if pawn \\
+\hline
+{\em is\+First} & true if this piece is at first\+Move stage \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classmain_1_1_piece}{Piece}} New piece with given parameters 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a2fafcb060e3617e7f3da120aea09a36b}\label{classmain_1_1_piece_a2fafcb060e3617e7f3da120aea09a36b}} 
+\index{main.Piece@{main.Piece}!diagonal@{diagonal}}
+\index{diagonal@{diagonal}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{diagonal()}{diagonal()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+diagonal (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position and position of this piece is on a diagonal line 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is at the same row or column with this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a4379392982c94b448a00c4a83f3d5552}\label{classmain_1_1_piece_a4379392982c94b448a00c4a83f3d5552}} 
+\index{main.Piece@{main.Piece}!getBoard@{getBoard}}
+\index{getBoard@{getBoard}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{getBoard()}{getBoard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1_board}{Board}} main.\+Piece.\+get\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get board containing this piece \begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classmain_1_1_board}{Board}} \mbox{\hyperlink{classmain_1_1_board}{Board}} containing this player 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a8bd82e7f1f966d64d6ae71ea6a1b2866}\label{classmain_1_1_piece_a8bd82e7f1f966d64d6ae71ea6a1b2866}} 
+\index{main.Piece@{main.Piece}!getCol@{getCol}}
+\index{getCol@{getCol}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{getCol()}{getCol()}}
+{\footnotesize\ttfamily int main.\+Piece.\+get\+Col (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get y position of this piece \begin{DoxyReturn}{Returns}
+int y position of this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a7bfe35e868d389f1e0bba2c5499fe6b0}\label{classmain_1_1_piece_a7bfe35e868d389f1e0bba2c5499fe6b0}} 
+\index{main.Piece@{main.Piece}!getPieceName@{getPieceName}}
+\index{getPieceName@{getPieceName}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{getPieceName()}{getPieceName()}}
+{\footnotesize\ttfamily abstract String main.\+Piece.\+get\+Piece\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Get \mbox{\hyperlink{classmain_1_1_piece}{Piece}} name 
+
+Reimplemented in \mbox{\hyperlink{classmain_1_1_pawn_a9b2b0585c4109472bff44ee71709ba2d}{main.\+Pawn}}, \mbox{\hyperlink{classmain_1_1_cannon_a7d765ab4a98f0fe7e9f7c8009aedfb35}{main.\+Cannon}}, \mbox{\hyperlink{classmain_1_1_archer_a56a18fea81ee66d4851c35415204a0dd}{main.\+Archer}}, \mbox{\hyperlink{classmain_1_1_bishop_a8fefdb54888dcf7d5093c29645ec2a32}{main.\+Bishop}}, \mbox{\hyperlink{classmain_1_1_king_a22461ffc069a468a22defbf83eb64ca5}{main.\+King}}, \mbox{\hyperlink{classmain_1_1_knight_a78dcdc3357df740c435e8c1b6c66d28f}{main.\+Knight}}, \mbox{\hyperlink{classmain_1_1_queen_a913eb8ceb0191b10a35eb9a5034aae01}{main.\+Queen}}, and \mbox{\hyperlink{classmain_1_1_rook_a33eaf3b77f78846b7d165338d6e7bf52}{main.\+Rook}}.
+
+\mbox{\Hypertarget{classmain_1_1_piece_afce632cbf2ecedfaffd75b3429cd9171}\label{classmain_1_1_piece_afce632cbf2ecedfaffd75b3429cd9171}} 
+\index{main.Piece@{main.Piece}!getPlayer@{getPlayer}}
+\index{getPlayer@{getPlayer}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{getPlayer()}{getPlayer()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+get\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get Owner of this piece \begin{DoxyReturn}{Returns}
+boolean Owner of this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_ac64b94e395aeccaa7775f64347008942}\label{classmain_1_1_piece_ac64b94e395aeccaa7775f64347008942}} 
+\index{main.Piece@{main.Piece}!getRow@{getRow}}
+\index{getRow@{getRow}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{getRow()}{getRow()}}
+{\footnotesize\ttfamily int main.\+Piece.\+get\+Row (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get x position of this piece \begin{DoxyReturn}{Returns}
+int x position of this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_ac37459803d206ec69e963d8ec80b18ab}\label{classmain_1_1_piece_ac37459803d206ec69e963d8ec80b18ab}} 
+\index{main.Piece@{main.Piece}!inBoard@{inBoard}}
+\index{inBoard@{inBoard}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{inBoard()}{inBoard()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+in\+Board (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position is in the board
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is in the board 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a6fd7622cdb9f1e91c00b416af8cfd043}\label{classmain_1_1_piece_a6fd7622cdb9f1e91c00b416af8cfd043}} 
+\index{main.Piece@{main.Piece}!isMate@{isMate}}
+\index{isMate@{isMate}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{isMate()}{isMate()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+is\+Mate (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if after this piece move to target position, this player is being checked or not
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & target x position \\
+\hline
+{\em j} & target x position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if after this piece move to target position, this player is being checked or not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_ae0c25ed29cd5eb75822bbba3068a283c}\label{classmain_1_1_piece_ae0c25ed29cd5eb75822bbba3068a283c}} 
+\index{main.Piece@{main.Piece}!noLeap@{noLeap}}
+\index{noLeap@{noLeap}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{noLeap()}{noLeap()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+no\+Leap (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if there is no piece between target position and position of this piece straightly or diagonally 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if there is no piece between target position and position of this piece straightly or diagonally 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a5dff87dbb6683e90c752b29c0b1dd5b4}\label{classmain_1_1_piece_a5dff87dbb6683e90c752b29c0b1dd5b4}} 
+\index{main.Piece@{main.Piece}!sameCol@{sameCol}}
+\index{sameCol@{sameCol}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{sameCol()}{sameCol()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+same\+Col (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position is at the same column with position of this piece 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is at the same row or column with this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_ad00cbb2f2d2fc267a39bfb839b8b56ac}\label{classmain_1_1_piece_ad00cbb2f2d2fc267a39bfb839b8b56ac}} 
+\index{main.Piece@{main.Piece}!samePos@{samePos}}
+\index{samePos@{samePos}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{samePos()}{samePos()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+same\+Pos (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position is the same as current position
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is the same as current position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a59913ef35b6873e7b7e49f54cbd3f825}\label{classmain_1_1_piece_a59913ef35b6873e7b7e49f54cbd3f825}} 
+\index{main.Piece@{main.Piece}!sameRow@{sameRow}}
+\index{sameRow@{sameRow}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{sameRow()}{sameRow()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+same\+Row (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position is at the same row with position of this piece 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is at the same row or column with this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_adb879d4da6b0570163f9581a038ad3a0}\label{classmain_1_1_piece_adb879d4da6b0570163f9581a038ad3a0}} 
+\index{main.Piece@{main.Piece}!straight@{straight}}
+\index{straight@{straight}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{straight()}{straight()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+straight (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position is at the same row or column with position of this piece 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position is at the same row or column with this piece 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_a952556ebac11683ccca77a7a07390472}\label{classmain_1_1_piece_a952556ebac11683ccca77a7a07390472}} 
+\index{main.Piece@{main.Piece}!validMove@{validMove}}
+\index{validMove@{validMove}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{validMove()}{validMove()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+valid\+Move (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Abstract function Check if this piece can move to target position, considering being checked 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of the piece \\
+\hline
+{\em j} & y position of the piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if this piece can move to target position, considering being checked 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmain_1_1_piece_adf43c89b35f525bc50f56d67df57c430}\label{classmain_1_1_piece_adf43c89b35f525bc50f56d67df57c430}} 
+\index{main.Piece@{main.Piece}!validPos@{validPos}}
+\index{validPos@{validPos}!main.Piece@{main.Piece}}
+\subsubsection{\texorpdfstring{validPos()}{validPos()}}
+{\footnotesize\ttfamily boolean main.\+Piece.\+valid\+Pos (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Check if target position can be occupied by this piece, considering capture 
+\begin{DoxyParams}{Parameters}
+{\em i} & x position of target position \\
+\hline
+{\em j} & y position of target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean A boolean that is true if target position can be occupied by this piece 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+chess/src/main/\mbox{\hyperlink{_piece_8java}{Piece.\+java}}\end{DoxyCompactItemize}

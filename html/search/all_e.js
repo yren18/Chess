@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['samecol',['sameCol',['../classmain_1_1_piece.html#a5dff87dbb6683e90c752b29c0b1dd5b4',1,'main::Piece']]],
+  ['samepos',['samePos',['../classmain_1_1_piece.html#ad00cbb2f2d2fc267a39bfb839b8b56ac',1,'main::Piece']]],
+  ['samerow',['sameRow',['../classmain_1_1_piece.html#a59913ef35b6873e7b7e49f54cbd3f825',1,'main::Piece']]],
+  ['scoreboard',['ScoreBoard',['../classview_1_1_score_board.html',1,'view.ScoreBoard'],['../classview_1_1_score_board.html#ad9bcca8602465dc9c33b93053353a4fa',1,'view.ScoreBoard.ScoreBoard()']]],
+  ['setcellcolor',['setCellColor',['../classview_1_1_cell.html#add1bd5d5569cc0c48cb317629ec3fa37',1,'view::Cell']]],
+  ['setcollabel',['setColLabel',['../classview_1_1_board.html#a485826c9e2feb7e266fc45d0dcb3c7d0',1,'view::Board']]],
+  ['setcurrentplayer',['setCurrentPlayer',['../classview_1_1_score_board.html#a2e37f0bda468fefb721e2619c736546f',1,'view::ScoreBoard']]],
+  ['setemptypiece',['setEmptyPiece',['../classview_1_1_board.html#a2c7d05a8fa6a3ee5bc8fc40ccdb0b487',1,'view::Board']]],
+  ['sethintscolor',['setHintsColor',['../classview_1_1_cell.html#a4e042931877eaab67434d38117c21a56',1,'view::Cell']]],
+  ['setpiece',['setPiece',['../classview_1_1_cell.html#af2cf8437eb1b84d7dffcc31aceaadf49',1,'view::Cell']]],
+  ['setplayername',['setPlayerName',['../classview_1_1_score_board.html#a2868eabf0df3041317516ddf762c05f4',1,'view::ScoreBoard']]],
+  ['setpossiblemovecolor',['setPossibleMoveColor',['../classview_1_1_cell.html#a137e09b0f767a45cc7dfb00b538adf33',1,'view::Cell']]],
+  ['setrowlabel',['setRowLabel',['../classview_1_1_board.html#aaf1c1066d7df098ab7b7a4e1d00beb25',1,'view::Board']]],
+  ['setselectedcolor',['setSelectedColor',['../classview_1_1_cell.html#a3c85b10fac6cfb0583903f13376c9ec4',1,'view::Cell']]],
+  ['stalemate',['staleMate',['../classmain_1_1_board.html#a907a1f26384edaa20589e7f58f903bf7',1,'main::Board']]],
+  ['straight',['straight',['../classmain_1_1_piece.html#adb879d4da6b0570163f9581a038ad3a0',1,'main::Piece']]]
+];

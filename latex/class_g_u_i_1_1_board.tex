@@ -1,0 +1,88 @@
+\hypertarget{class_g_u_i_1_1_board}{}\section{G\+U\+I.\+Board Class Reference}
+\label{class_g_u_i_1_1_board}\index{GUI.Board@{GUI.Board}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_g_u_i_1_1_board_a5384facfb30f8859954c94938e13f7b8}{Board}} ()
+\item 
+\mbox{\Hypertarget{class_g_u_i_1_1_board_afae183402f9dfc9f4e17983f283fdae9}\label{class_g_u_i_1_1_board_afae183402f9dfc9f4e17983f283fdae9}} 
+void {\bfseries set\+Empty\+Piece} ()
+\item 
+void \mbox{\hyperlink{class_g_u_i_1_1_board_a5c731ea8c55eb03fbe3957b6780d2d99}{set\+Col\+Label}} (int i)
+\item 
+void \mbox{\hyperlink{class_g_u_i_1_1_board_a9536cdbbbc77d61a9b9cede722578ad1}{set\+Row\+Label}} (int j)
+\item 
+J\+Panel \mbox{\hyperlink{class_g_u_i_1_1_board_a5687d06b1a3a957953d4b63ec2a69806}{get\+Panel}} ()
+\item 
+\mbox{\hyperlink{class_g_u_i_1_1_cell}{Cell}} \mbox{\hyperlink{class_g_u_i_1_1_board_a2eae485591977a602b2f1eb67fa1718e}{get\+Cell}} (String pos)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_g_u_i_1_1_board_a5384facfb30f8859954c94938e13f7b8}\label{class_g_u_i_1_1_board_a5384facfb30f8859954c94938e13f7b8}} 
+\index{GUI.Board@{GUI.Board}!Board@{Board}}
+\index{Board@{Board}!GUI.Board@{GUI.Board}}
+\subsubsection{\texorpdfstring{Board()}{Board()}}
+{\footnotesize\ttfamily G\+U\+I.\+Board.\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create new empty board 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_g_u_i_1_1_board_a2eae485591977a602b2f1eb67fa1718e}\label{class_g_u_i_1_1_board_a2eae485591977a602b2f1eb67fa1718e}} 
+\index{GUI.Board@{GUI.Board}!getCell@{getCell}}
+\index{getCell@{getCell}!GUI.Board@{GUI.Board}}
+\subsubsection{\texorpdfstring{getCell()}{getCell()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_g_u_i_1_1_cell}{Cell}} G\+U\+I.\+Board.\+get\+Cell (\begin{DoxyParamCaption}\item[{String}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get cell at target position
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & Position(e.\+g\+: A1, B7) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_g_u_i_1_1_cell}{Cell}} \mbox{\hyperlink{class_g_u_i_1_1_cell}{Cell}} at target position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_g_u_i_1_1_board_a5687d06b1a3a957953d4b63ec2a69806}\label{class_g_u_i_1_1_board_a5687d06b1a3a957953d4b63ec2a69806}} 
+\index{GUI.Board@{GUI.Board}!getPanel@{getPanel}}
+\index{getPanel@{getPanel}!GUI.Board@{GUI.Board}}
+\subsubsection{\texorpdfstring{getPanel()}{getPanel()}}
+{\footnotesize\ttfamily J\+Panel G\+U\+I.\+Board.\+get\+Panel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get J\+Panel
+
+\begin{DoxyReturn}{Returns}
+J\+Panel 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_g_u_i_1_1_board_a5c731ea8c55eb03fbe3957b6780d2d99}\label{class_g_u_i_1_1_board_a5c731ea8c55eb03fbe3957b6780d2d99}} 
+\index{GUI.Board@{GUI.Board}!setColLabel@{setColLabel}}
+\index{setColLabel@{setColLabel}!GUI.Board@{GUI.Board}}
+\subsubsection{\texorpdfstring{setColLabel()}{setColLabel()}}
+{\footnotesize\ttfamily void G\+U\+I.\+Board.\+set\+Col\+Label (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Add ith-\/column label
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & the column to add label \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_g_u_i_1_1_board_a9536cdbbbc77d61a9b9cede722578ad1}\label{class_g_u_i_1_1_board_a9536cdbbbc77d61a9b9cede722578ad1}} 
+\index{GUI.Board@{GUI.Board}!setRowLabel@{setRowLabel}}
+\index{setRowLabel@{setRowLabel}!GUI.Board@{GUI.Board}}
+\subsubsection{\texorpdfstring{setRowLabel()}{setRowLabel()}}
+{\footnotesize\ttfamily void G\+U\+I.\+Board.\+set\+Row\+Label (\begin{DoxyParamCaption}\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Add jth-\/row label
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & the row to add label \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+chess/src/\+G\+U\+I/Board.\+java\end{DoxyCompactItemize}
